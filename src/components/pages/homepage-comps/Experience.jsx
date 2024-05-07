@@ -1,6 +1,7 @@
 import React from "react";
 import tekab from "../../../assets/tekab.png";
 import quebec from "../../../assets/quebec.png";
+import avaxia from "../../../assets/avaxia.svg";
 
 
 import { Link as ScrollLink } from "react-scroll";
@@ -8,9 +9,25 @@ import { Link as ScrollLink } from "react-scroll";
 const Experience = () => {
   const exps = [
     {
+      id: 0,
+      src: avaxia,
+      title: "XR Developer",
+      style: "shadow-orange-500",
+      at : "AVAXIA",
+      description : "Developing a mixed reality app for Microsoft Hololens.",
+      technologies : [
+        "Unity",
+        "C#",
+        "Azure",
+        "Node JS",
+        "Python",
+        "Computer Vision"
+      ]
+    },
+    {
       id: 1,
       src: quebec,
-      title: "Mobile Dev - Internship",
+      title: "Mobile Developer",
       style: "shadow-orange-500",
       at : "Quebec Center",
       description : "Developed an interactive language e-leaning app for kids based on text to speech and speech recognition.",
@@ -24,7 +41,7 @@ const Experience = () => {
     {
       id: 2,
       src: tekab,
-      title: "Web dev - Internship",
+      title: "Web developer",
       style: "shadow-orange-500",
       at : "Tekab Dev",
       description : "Worked on a survey creation, broadcasting and analysis platform / Contributing to a code generation tool",
@@ -37,7 +54,7 @@ const Experience = () => {
     {
       id: 3,
       src: tekab,
-      title: "Web dev - CIVP Internship",
+      title: "Web developer",
       style: "shadow-orange-500",
       at : "Tekab Dev",
       description : "Developed backend services for a video streaming platform / Resolve streaming related problems.",
@@ -52,7 +69,7 @@ const Experience = () => {
     {
       id: 4,
       src: tekab,
-      title: "Web dev - PFE Internship",
+      title: "Web developer",
       style: "shadow-orange-500",
       at : "Tekab Dev",
       description : "Developed a design-to-web automatic conversion solution depending on the analysis of the design file structure.",
@@ -61,7 +78,8 @@ const Experience = () => {
         "React JS",
         "Docker"
       ]
-    }
+    },
+    
   ];
 
   return (
@@ -77,7 +95,7 @@ const Experience = () => {
           <p className="py-6">This is my professional experience</p>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 text-center p-8 sm:px-0">
           {exps.map(({ id, src, title, description, technologies, at, style }) => (
             <div
               key={id}

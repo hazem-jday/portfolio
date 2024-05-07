@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className='flex flex-col justify-center items-center h-[85%] md:h-full order-2 md:order-1 md:items-start'>
             
-            <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 mt-3 md:mt-0 md:mb-4'>Hazem JDAY</h1>
+            <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 mt-3 md:mt-0 md:mb-4'>Hazem JDAY ✨</h1>
             <h2 className='rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>Developer</h2>
             <p className='text-gray-300 py-4 max-x-md text-justify'>A versatile software engineering student experienced in web, mobile, and 3D simulation. Passionate about problem-solving and staying updated on new technologies, I'm ready to contribute my skills to innovative projects.</p>
 

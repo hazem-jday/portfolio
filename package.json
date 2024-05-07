@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https",
+  "homepage": "https://hazem-jday.github.io/portfolio",
 
   "scripts": {
     "dev": "vite",
